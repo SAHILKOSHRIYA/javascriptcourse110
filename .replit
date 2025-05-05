@@ -23,4 +23,4 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "node 01_JS_basics/your-file-name.js"
+args = "node 01_JS_basics/02_Dataypes_primitive_object.js"

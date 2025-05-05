@@ -1,4 +1,4 @@
-"use strict";  //  to use newest syntax nad code strictly " sending msg to the Js Engine to treat all js code as newer version "
+//"use strict";  //  to use newest syntax nad code strictly " sending msg to the Js Engine to treat all js code as newer version "
 // alert("ion node Js not in browser")
 
 // when use semicolon and when not
