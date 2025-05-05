@@ -19,6 +19,6 @@ let d = BigInt("567") + BigInt("3");
 let e = "SAHIL";
 let f = Symbol("I am a nice symbol");
 let g = undefined;
-console.log(a, b, c, d, e, f, g);
+console.table(a, b, c, d, e, f, g);
 console.log(typeof d);
 console.log(typeof d);
