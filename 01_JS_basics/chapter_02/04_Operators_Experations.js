@@ -1,3 +1,4 @@
 
+console.log("Chapter 02: Operators and Expressions\n");
 
-console.log(chapter_02 + "\n");
+// Your operators and expressions code will go here
