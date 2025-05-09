@@ -86,3 +86,11 @@ console.log("| Checks            | Value equality after conversion   | Value and
 console.log("| Example           | 5 == '5'  // true                | 5 === '5' // false                |");
 console.log("| Use Case          | Loose comparison                 | Strict and type-safe comparison |");
 console.log("-------------------------------------------------------------------------");
+console.log("-------------------------------------------------------------------------");
+console.log("| Feature           | '==' (Equality)                    | '===' (Strict Equality)           |");
+console.log("-------------------------------------------------------------------------");
+console.log("| Type Conversion   | Performs type conversion if needed | No type conversion               |");
+console.log("| Checks            | Value equality after conversion   | Value and type equality          |");
+console.log("| Example           | 5 == '5'  // true                | 5 === '5' // false                |");
+console.log("| Use Case          | Loose comparison                 | Strict and type-safe comparison |");
+console.log("-------------------------------------------------------------------------");
