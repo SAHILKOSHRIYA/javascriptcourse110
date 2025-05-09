@@ -78,19 +78,34 @@ console.log(isAdult); // Output: "Yes, is adult"
 
 //Q2:
 console.log(" Q2 difeerence between the ' ==' and '===' operators\n")
-console.log("-------------------------------------------------------------------------");
-console.log("| Feature           | '==' (Equality)                    | '===' (Strict Equality)           |");
-console.log("-------------------------------------------------------------------------");
-console.log("| Type Conversion   | Performs type conversion if needed | No type conversion               |");
-console.log("| Checks            | Value equality after conversion   | Value and type equality          |");
-console.log("| Example           | 5 == '5'  // true                | 5 === '5' // false                |");
-console.log("| Use Case          | Loose comparison                 | Strict and type-safe comparison |");
-console.log("-------------------------------------------------------------------------");
-console.log("-------------------------------------------------------------------------");
-console.log("| Feature           | '==' (Equality)                    | '===' (Strict Equality)           |");
-console.log("-------------------------------------------------------------------------");
-console.log("| Type Conversion   | Performs type conversion if needed | No type conversion               |");
-console.log("| Checks            | Value equality after conversion   | Value and type equality          |");
-console.log("| Example           | 5 == '5'  // true                | 5 === '5' // false                |");
-console.log("| Use Case          | Loose comparison                 | Strict and type-safe comparison |");
-console.log("-------------------------------------------------------------------------");
+console.table([
+  {
+    Operator: '==',
+    Description: 'Checks equality of values after type conversion (type coercion).',
+    Type_Check: 'No',
+    Type_Coercion: 'Yes',
+    Use_Case: 'Used when data types may differ and type conversion is acceptable.',
+    Example: `"5" == 5`,
+    Output: true
+  }
+     ,
+  {
+    Operator: '===',
+    Description: 'Checks equality of both value and type (strict comparison).',
+    Type_Check: 'Yes',
+    Type_Coercion: 'No',
+    Use_Case: 'Used when both value and data type must match.',
+    Example: `"5" === 5`,
+    Output: false
+  }
+]);
+console.log("\n")
+//3. Logical operators
+console.log("5.Logical operators\n")
+
+let p = 5;
+let q = 10;
+
+console.log("p > 0 && q < 15:", p > 0 && q < 15);  // true (both conditions are true)
+console.log("p > 0 || q > 15:", p > 0 || q > 15);  // true (at least one condition is true)
+console.log("!(p > 0):", !(p > 0));            // false (negation of true)
