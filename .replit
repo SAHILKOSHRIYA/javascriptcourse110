@@ -32,4 +32,4 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "node 01_JS_basics/chapter_02/06practiceSet.js"
+args = "node 01_JS_basics/chapter_02/06_practiceSet.js"
