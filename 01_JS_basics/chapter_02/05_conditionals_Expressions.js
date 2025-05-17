@@ -286,4 +286,4 @@ console.log(c);
 const ag= 19;
 const resu = ag >= 18 ? "You are an adult" : "You are not an adult";
 console.log("AGE ternary operator")
-console.log(resu);
+console.log(resud);
