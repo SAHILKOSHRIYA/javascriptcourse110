@@ -14,7 +14,7 @@ deploymentTarget = "autoscale"
 ignorePorts = false
 
 [workflows]
-runButton = "Run Chapter 2"
+runButton = "Run Chapter3"
 
 [[workflows.workflow]]
 name = "Run"
@@ -33,3 +33,12 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "node 01_JS_basics/chapter_02/06_practiceSet.js"
+
+[[workflows.workflow]]
+name = "Run Chapter3"
+mode = "sequential"
+author = 42277459
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node 01_JS_basics/chapter_03/08_while_and_do_while.js"
