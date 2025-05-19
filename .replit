@@ -41,4 +41,4 @@ author = 42277459
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "node 01_JS_basics/chapter_03/09_Functions.js"
+args = "node 01_JS_basics/chapter_03/10_practiseSet.js"
